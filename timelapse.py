@@ -4,8 +4,8 @@ import os
 time_between_photos = 60 * 60 # one photo per hour
 
 directory = os.getcwd() + "/photos/"
-if not os.path.exists(directory):
-    os.makedirs(directory)
+if not os.path.exists(os.getcwd() + "/photos"):
+	os.makedirs(directory)
 
 camera = picamera.PiCamera()
 
