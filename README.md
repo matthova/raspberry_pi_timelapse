@@ -5,5 +5,5 @@ If you want this script to run on boot add the following line to /etc/rc.local
 or  
 \<absolute path to python\> \<absolute path to timelapse.py\>
 
-Be sure to expand your sd card's file system and enable the camera
+Be sure to expand your sd card's file system and enable the camera  
 You can do so via the command "sudo raspi-config"
